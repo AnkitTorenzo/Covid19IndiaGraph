@@ -1,0 +1,41 @@
+body{
+background-color: black;
+text-align: center;
+padding-top: 10%;
+}
+
+.forground{
+    color: cornsilk;
+    font-size: 30px;
+    line-height: 100px;
+}
+
+.death{
+    background-color: #FF0400;
+}
+
+.recover{
+    background-color: #3AD834;
+}
+
+.cases{
+    background-color: #F2BD1D;
+}
+
+.deathForG{
+    color: #FF0400;
+}
+
+.recoverForG{
+    color: #3AD834;
+}
+
+.casesForG{
+    color: #F2BD1D;
+}
+
+.box{
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+}
