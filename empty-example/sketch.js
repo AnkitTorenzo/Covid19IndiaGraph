@@ -15,9 +15,10 @@ let something = false;
 
 function setup()
 {
-  createCanvas(window.innerWidth - 2, window.innerHeight - 2);
+  createCanvas(window.innerWidth - 2, window.innerHeight * 2);
   loadJSON(API_URL, ParseJsonData);
   background(0);
+  scale(0.8);
 }
 
 function draw()
